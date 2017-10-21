@@ -1,0 +1,19 @@
+# Alle hier gesetzten Werte können über $addon->getProperty($key) abgefragt werden
+
+package: editor-help
+version: '0.1'
+author: 'Nuasign'
+compile: 0
+
+page:
+  title: 'Autoren-Hilfe'
+  perm: editor-help[]
+  pjax: true
+  icon: rex-icon fa fa-hospital-o
+  subpages:
+    info: { title: 'translate:editor-help_information' }
+
+requires:
+    packages:
+    
+    redaxo: '>=5.3'
